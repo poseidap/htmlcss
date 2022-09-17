@@ -1,0 +1,72 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container-navbar {
+    background-color: #333;
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    border: 1px solid white;
+    padding: 20px;
+    margin: 5px;
+    background-color: #222;
+    list-style-type: none;
+    color: white;
+    border-radius: 8px;
+}
+
+.li-navbar:hover {
+    background-color: white;
+    transition: .2s ease-in-out;
+    transition-delay: .2s;
+    border-radius: 8px;
+}
+
+#biodata {
+    background: red;
+    width: 100px;
+    height: 100px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.home-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.img-content {
+    width: 10%;
+    height: 20%;
+}
+
+.container-footer {
+    height: 10vh;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer {
+    color: white;
+    font-size: 40px;
+}
